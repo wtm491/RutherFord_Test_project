@@ -31,5 +31,29 @@
   <script src="components/TodoItem.js"></script>
   <script src="components/TodoList.js"></script>
 
+  <!-- Firebase scripts  -->
+
+  <!-- The core Firebase JS SDK -->
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  //Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBOJZs8LMqxVQvhybPk4k7QInDGYRbbwf4",
+    authDomain: "rutherford-todo.firebaseapp.com",
+    databaseURL: "https://rutherford-todo.firebaseio.com",
+    projectId: "rutherford-todo",
+    storageBucket: "rutherford-todo.appspot.com",
+    messagingSenderId: "1074147867251",
+    appId: "1:1074147867251:web:01039e05dfef077a0d0806"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+  <script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-firestore.js"></script>
+
 </body>
 </html>

@@ -1,5 +1,7 @@
+
 function ToDoList() {  
     const todoController = this;
+
     
     //test array to populate list
     todoController.toDoItems = [
@@ -50,7 +52,6 @@ function ToDoList() {
     // Add new item when add button clicked
     todoController.add = function(addTask) {
       todoController.toDoItems.push({name: addTask, completed: false, closed: false});
-      console.log(`Add new input item when add button clicked.`);
     }
   };
 
